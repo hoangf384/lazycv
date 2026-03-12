@@ -109,10 +109,4 @@
   ]
 )
 
-- *[Name of Certification 1]* - *[Name of Certification 2]* ```
-
-### Cách sử dụng Template này:
-1. Bạn chỉ cần copy toàn bộ đoạn mã này lưu thành một file tên là `template_cv_ats.typ`.
-2. Khi cần dùng, bạn (hoặc bạn bè) tạo một file mới, copy nội dung này sang và chỉ việc tìm các cụm từ nằm trong ngoặc vuông `[...]` để thay thế bằng thông tin thật.
-
-Bạn có muốn mình tạo thêm một số biến (variables) ở ngay đầu file code để sau này bạn chỉ cần gõ tên, email, link Github ở phần đầu là nó tự động điền xuống dưới không?
+- *[Name of Certification 1]* - *[Name of Certification 2]* 
