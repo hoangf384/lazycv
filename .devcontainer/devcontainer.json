@@ -1,0 +1,13 @@
+{
+  "name": "Typst CV Lab",
+  "image": "pandoc/typst:3-alpine",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "myriad-dreamin.tinymist",
+        "yzhang.markdown-all-in-one"
+      ]
+    }
+  },
+  "postCreateCommand": "typst --version"
+}
