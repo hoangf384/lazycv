@@ -1,0 +1,26 @@
+name: Build CV
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Typst
+        uses: chialab/actions-typst@v1
+
+      - name: Build PDF
+        run: typst compile template.typ CV.pdf
+
+      - name: Upload PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: My_CV
+          path: CV.pdf
