@@ -1,10 +1,11 @@
-name: Build CV
+name: Build and Release CV
 on:
   push:
     branches: [ main, master ]
-  pull_request:
-    branches: [ main, master ]
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -16,11 +17,17 @@ jobs:
       - name: Setup Typst
         uses: typst-community/setup-typst@v3
 
-      - name: Build PDF
-        run: typst compile template.typ CV.pdf
+      - name: Build Template PDF
+        run: typst compile template.typ LazyCV_Template.pdf
 
-      - name: Upload PDF
-        uses: actions/upload-artifact@v4
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
         with:
-          name: My_CV
-          path: CV.pdf
+          tag_name: latest
+          name: Latest Template Build
+          body: |
+            This is the latest automated build of the CV template.
+            You can download the PDF below to see the preview.
+          files: LazyCV_Template.pdf
+          prerelease: true
