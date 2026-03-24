@@ -31,7 +31,6 @@ If you prefer not to use Docker:
    typst watch template.typ
    ```
 
-## 3. Customization
-1. Open `template.typ`.
-2. Replace the placeholder text inside the brackets `[...]` with your own information.
-3. Save the file to see your updated CV instantly.
+## 3. exmaples
+
+![template](images/template.png)
