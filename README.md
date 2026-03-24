@@ -34,3 +34,18 @@ If you prefer not to use Docker:
 ## 3. exmaples
 
 ![template](images/template.png)
+
+
+## 4. Build PDF
+
+Using bash to compile CV (recommended)
+
+```bash 
+typst compile <name-of-cv-file>.typ --format=[pdf, png, html, svg]
+```
+
+## 5. Known Issues
+
+- Hardcoded UID/GID: The image is currently locked to 1000:1000. Please change as needed.
+
+- Extension Permissions: Some VS Code extensions (e.g., Tinymist) occasionally ignore the system umask and export PDFs with 600 permissions (private). Using the manual bash compile command above is the current workaround.
