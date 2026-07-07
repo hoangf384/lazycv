@@ -1,0 +1,58 @@
+
+==============================================================================
+nvim-treesitter:                                                          1 ❌
+
+Requirements ~
+- ✅ OK Neovim was compiled with tree-sitter runtime ABI version 15 (required >=13).
+- ✅ OK tree-sitter-cli 0.26.9 (/home/hp/.nvm/versions/node/v24.13.1/bin/tree-sitter)
+- ✅ OK tar 1.35.0 (/usr/sbin/tar)
+- ✅ OK curl 8.15.0 (/usr/sbin/curl)
+  curl 8.15.0 (x86_64-redhat-linux-gnu) libcurl/8.15.0 OpenSSL/3.5.4 zlib/1.3.1.zlib-ng brotli/1.2.0 libidn2/2.3.8 libpsl/0.21.5 libssh/0.11.4/openssl/zlib nghttp2/1.66.0 OpenLDAP/2.6.13
+  Release-Date: 2025-07-16
+  Protocols: dict file ftp ftps gopher gophers http https imap imaps ipfs ipns ldap ldaps mqtt pop3 pop3s rtsp scp sftp smb smbs smtp smtps telnet tftp ws wss
+  Features: alt-svc AsynchDNS brotli GSS-API HSTS HTTP2 HTTPS-proxy IDN IPv6 Kerberos Largefile libz NTLM PSL SPNEGO SSL threadsafe TLS-SRP UnixSockets
+
+OS Info ~
+- sysname: Linux
+- machine: x86_64
+- release: 7.0.12-101.fc43.x86_64
+- version: #1 SMP PREEMPT_DYNAMIC Thu Jun 11 01:32:26 UTC 2026
+
+Install directory for parsers and queries ~
+- /home/hp/.local/share/nvim/site/
+- ✅ OK is writable.
+- ❌ ERROR is not in runtimepath.
+
+Installed languages     H L F I J ~
+- bash                  ✓ ✓ ✓ ✓ ✓
+- c                     ✓ ✓ ✓ ✓ ✓
+- diff                  ✓ . ✓ . ✓
+- dtd                   ✓ ✓ ✓ . ✓
+- ecma
+- html                  ✓ ✓ ✓ ✓ ✓
+- html_tags
+- javascript            ✓ ✓ ✓ ✓ ✓
+- jsdoc                 ✓ . . . .
+- json                  ✓ ✓ ✓ ✓ ✓
+- jsx
+- lua                   ✓ ✓ ✓ ✓ ✓
+- luadoc                ✓ . . . .
+- luap                  ✓ . . . .
+- markdown              ✓ . ✓ ✓ ✓
+- markdown_inline       ✓ . . . ✓
+- ninja                 ✓ . ✓ ✓ ✓
+- printf                ✓ . . . .
+- python                ✓ ✓ ✓ ✓ ✓
+- query                 ✓ ✓ ✓ ✓ ✓
+- regex                 ✓ . . . .
+- rst                   ✓ ✓ . . ✓
+- toml                  ✓ ✓ ✓ ✓ ✓
+- tsx                   ✓ ✓ ✓ ✓ ✓
+- typescript            ✓ ✓ ✓ ✓ ✓
+- vim                   ✓ ✓ ✓ . ✓
+- vimdoc                ✓ . . . ✓
+- xml                   ✓ ✓ ✓ ✓ ✓
+- yaml                  ✓ ✓ ✓ ✓ ✓
+
+  Legend: [H]ighlights, [L]ocals, [F]olds, [I]ndents, In[J]ections ~
+
