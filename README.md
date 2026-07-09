@@ -31,7 +31,7 @@ If you prefer not to use Docker:
    typst watch template.typ
    ```
 
-## 3. exmaples
+## 3. Examples
 
 ![template](images/template.png)
 
@@ -49,3 +49,16 @@ typst compile <name-of-cv-file>.typ --format=[pdf, png, html, svg]
 - Hardcoded UID/GID: The image is currently locked to 1000:1000. Please change as needed.
 
 - Extension Permissions: Some VS Code extensions (e.g., Tinymist) occasionally ignore the system umask and export PDFs with 600 permissions (private). Using the manual bash compile command above is the current workaround.
+
+
+## 6. Agent-Native Autopilot (Autonomous Customization)
+
+This repository is designed to be **agent-native**, meaning you can delegate the entire CV tailoring and cover letter drafting workflow to autonomous coding assistants (such as Claude Code, Gemini CLI, or Codex CLI).
+
+* **System Entrypoint:** Read [AGENTS.md](file:///home/hp/projects/lazycv/AGENTS.md) for the harness specifications and environment rules.
+* **System Architecture:** Read [ARCHITECTURE.md](file:///home/hp/projects/lazycv/ARCHITECTURE.md) to understand the interaction model, sequence diagrams, and state machine transitions.
+
+### How it works:
+1. **Contract-Guided Generation:** The CV Writer agent optimizes summaries and skill sets according to boundaries defined in `contracts/cv.md`, preventing any modifications to core candidate history.
+2. **Procedural Workflows:** Playbooks in `playbooks/` instruct agents step-by-step on how to extract JDs, setup folders, and write drafts.
+3. **Automated Quality Gate:** All generated CVs are programmatically verified using `scripts/verify_cv.py` to ensure profile integrity before prompting for final user approval.
