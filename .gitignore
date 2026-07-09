@@ -1,4 +1,15 @@
+# Ignore all track folders (containing personal JDs, tailored CVs, and company subdirectories)
+BA/
+BI/
+DA/
+DE/
+Finance/
+Ops/
+
+# Ignore candidate's master CV template and private profile
+PERSONAL_TEMPLATE.typ
+knowledge/PERSONAL_PROFILE.md
+
+# Ignore session tracking logs (contains history of companies applied to)
 state/PROGRESS.md
 state/run_task.md
-knowledge/PERSONAL_PROFILE.md
-PERSONAL_TEMPLATE.typ
