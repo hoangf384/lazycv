@@ -13,3 +13,6 @@ knowledge/PERSONAL_PROFILE.md
 # Ignore session tracking logs (contains history of companies applied to)
 state/PROGRESS.md
 state/run_task.md
+
+# Ignore avatar
+images/avatar.jpg
