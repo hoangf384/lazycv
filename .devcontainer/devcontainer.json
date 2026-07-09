@@ -12,6 +12,10 @@
       ]
     }
   },
+  "runArgs": [
+    "--security-opt",
+    "label=disable"
+  ],
   "workspaceFolder": "/workspaces/lazycv",
   "remoteUser": "lazycv"
 }

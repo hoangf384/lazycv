@@ -1,84 +1,84 @@
-# Hồ Sơ Ứng Viên & Báo Cáo Đối Chiếu CV (PERSONAL_PROFILE.md)
+# Candidate Profile & CV Reconciliation Report (PERSONAL_PROFILE.md)
 
-Tài liệu này tổng hợp toàn bộ thông tin cá nhân của ứng viên từ các bản CV trong hệ thống và báo cáo kết quả đối chiếu, xử lý các điểm chênh lệch thông tin (đã xác thực bởi ứng viên).
+This document consolidates all standardized candidate personal information from the CVs in the system, along with the reconciliation report for resolving data discrepancies (verified by the candidate).
 
 ---
 
-## I. Thông Tin Cá Nhân Chuẩn (Single Source of Truth)
+## I. Standard Personal Profile (Single Source of Truth)
 
-### 1. Thông tin liên hệ
-* **Họ và tên:** NGUYỄN PHAN HOÀNG PHÚC (NGUYEN PHAN HOANG PHUC)
-* **Địa chỉ:** Thủ Đức, TP.HCM
-* **Số điện thoại:** (84) 854 519 237
+### 1. Contact Information
+* **Full Name:** NGUYEN PHAN HOANG PHUC (NGUYỄN PHAN HOÀNG PHÚC)
+* **Address:** Thu Duc, Ho Chi Minh City (HCMC)
+* **Phone Number:** (84) 854 519 237
 * **Email:** phuchoang0308@gmail.com
 * **GitHub:** [github.com/hoangf384](https://github.com/hoangf384)
 * **LinkedIn:** [linkedin.com/in/hoangf384](https://www.linkedin.com/in/hoangf384/)
 
-### 2. Học vấn & Chứng chỉ
-* **Trường học:** Đại học Ngân hàng TP.HCM (HUB) (10/2022 – 03/2026)
-* **Ngành học:** Hệ thống thông tin quản lý (MIS)
-* **Chuyên ngành:** Khoa học Dữ liệu trong Kinh doanh (Business Data Science)
+### 2. Education & Certificates
+* **University:** Ho Chi Minh City University of Banking (HUB) (10/2022 – 03/2026)
+* **Major:** Management Information Systems (MIS)
+* **Specialization:** Business Data Science
 * **GPA:** 3.2 / 4.0
-* **Giải thưởng:** Bán kết - Cuộc thi Data Analytics Competition 2024 (HUB)
-* **Chứng chỉ:**
+* **Awards:** Semi-finalist - Data Analytics Competition 2024 (organized by HUB)
+* **Certificates:**
   * Google Data Analytics Professional Certificate (Coursera)
-  * Chứng chỉ Tiếng Anh VSTEP – Bậc 4 (B2 CEFR)
+  * VSTEP English Certificate – Level 4 (B2 CEFR)
   * Harness Engineering for AI Agents (WalkingLabs)
 
 ---
 
-## II. Lịch Sử Kinh Nghiệm Làm Việc (Đã xác minh)
+## II. Work Experience History (Verified)
 
 ### 1. Newgen Invest
-* **Chức danh chuẩn:** Data Analyst / Operations Administrator (Tùy chỉnh theo vị trí ứng tuyển)
-* **Thời gian làm việc chuẩn:** **03/2026 – Hiện tại (Present)** (Còn đang làm việc)
-* **Mô tả công việc:** Quản lý lead trên Google Sheets, thiết lập Mini CRM, chia số lead dựa trên hiệu suất sales, tự động hóa báo cáo hàng ngày bằng công thức (IMPORTRANGE, QUERY, FILTER...).
+* **Standard Job Title:** Data Analyst / Operations Administrator (Tailored based on position)
+* **Standard Period:** **03/2026 – Present** (Currently working here)
+* **Job Description:** Managed customer leads distribution for the Sales team on Google Sheets, established a Mini CRM, distributed leads based on sales performance, and automated daily reporting using formulas (IMPORTRANGE, QUERY, FILTER, etc.).
 
 ### 2. ATG
-* **Chức danh chuẩn:** Data Operation Intern / Operations Intern / Thực tập sinh Vận hành
-* **Thời gian làm việc chuẩn:** **10/2025 – 12/2025**
-* **Mô tả công việc:** Đối soát 1.000+ bản ghi giao dịch hàng ngày đạt độ chính xác 99%, kiểm duyệt 1.500+ tin tuyển dụng trên boss.vn.
+* **Standard Job Title:** Data Operation Intern / Operations Intern / Operations Assistant
+* **Standard Period:** **10/2025 – 12/2025**
+* **Job Description:** Validated 1,000+ daily operational records against legal documents with 99% accuracy. Moderated 1,500+ job postings on boss.vn to maintain content quality and data consistency.
 
 ### 3. ECXO
-* **Chức danh chuẩn:** Thực tập sinh SEO On-page / SEO Intern
-* **Thời gian làm việc chuẩn:** **09/2025 – 10/2025**
-* **Mô tả công việc:** Tối ưu hóa on-page (meta tags, headers, breadcrumbs) cho 50+ trang đích, tăng 10% lượt hiển thị tự nhiên qua liên kết nội bộ.
+* **Standard Job Title:** SEO On-page Intern / SEO Intern
+* **Standard Period:** **09/2025 – 10/2025**
+* **Job Description:** Optimized on-page SEO components (meta tags, description, headers, breadcrumbs) for 50+ landing pages, increasing organic impressions by 10% through internal linking strategies.
 
-### 4. Data Corp Viet Nam (CTV Dán nhãn dữ liệu)
-* **Chức danh chuẩn:** Data Annotator / Cộng tác viên Dán nhãn dữ liệu
-* **Thời gian làm việc chuẩn:** **07/2024 – 09/2024** (Ẩn bằng comment trong hầu hết các bản CV nộp)
+### 4. Data Corp Viet Nam (Data Labeling Contributor)
+* **Standard Job Title:** Data Annotator / Data Labeling Contributor
+* **Standard Period:** **07/2024 – 09/2024** (Hidden via comments in most submitted CVs)
 
 ---
 
-## III. Danh Sách Dự Án Chuẩn
+## III. Standard Project List
 
 ### 1. MoMo Top Up (MoMo Transaction & Behavioral Analytics)
-* **Thời gian:** **04/2026 – 05/2026**
-* **Nội dung:** Phân tích 13.400+ giao dịch (694,6 triệu VNĐ GMV), Pareto 80/20, Cohort & Demographic phân khúc người dùng 23-32 tuổi, đánh giá hiệu suất 5 nhà mạng.
+* **Period:** **04/2026 – 05/2026**
+* **Description:** Analyzed 13,400+ transactions worth 694.6M VND GMV. Applied Pareto (80/20) rule to identify that the top 20% of users contributed 65% of revenue. Performed Cohort & Demographic analysis for users aged 23-32 and evaluated performance of 5 telcos.
 
-### 2. Phân tích hành vi tài chính cá nhân (Personal Finance behavioral analytics)
-* **Thời gian:** **05/2025 – 07/2025**
-* **Nội dung:** Mô phỏng tập dữ liệu tài chính 20.000 người dùng qua Python, thiết kế dashboard Tableau tương tác, đề xuất A/B testing tính năng 'Cảnh báo chi tiêu chủ động'.
+### 2. Personal Finance Behavioral Analytics (Group Project)
+* **Period:** **05/2025 – 07/2025**
+* **Description:** Simulated a financial dataset of 20,000 users using Python (SciPy, NumPy) with multivariate normal distributions based on U.S. BLS data. Designed interactive Tableau dashboards for demographic segmentation and formulated A/B testing strategy for 'Proactive Pacing Alerts'.
 
 ### 3. Customer Behavioral Analytics Pipeline
-* **Thời gian:** **11/2025 – 03/2026**
-* **Nội dung:** Pipeline Big Data (PySpark, Medallion Architecture GCS Bronze, BigQuery + dbt, Looker Studio/Metabase dashboard).
+* **Period:** **11/2025 – 03/2026**
+* **Description:** Built a Big Data pipeline using PySpark, Medallion Architecture (GCS Bronze), BigQuery + dbt, and Looker Studio/Metabase dashboards.
 
 ### 4. Job Board Analytics Pipeline
-* **Thời gian:** **01/2026 – 02/2026**
-* **Nội dung:** Cassandra + MySQL, PySpark incremental ETL, Airflow, Docker, AWS (EC2, S3, IAM), Tailscale.
+* **Period:** **01/2026 – 02/2026**
+* **Description:** Designed a pipeline combining Cassandra and MySQL, PySpark incremental ETL, Airflow, Docker, AWS (EC2, S3, IAM), and Tailscale.
 
 ### 5. E-commerce ETL Data Pipeline
-* **Thời gian:** **08/2025 – 09/2025**
-* **Nội dung:** Cào dữ liệu sản phẩm e-commerce bằng Selenium + Python, thiết kế kho dữ liệu Star Schema (MySQL trong Docker), gỡ lỗi tự động.
+* **Period:** **08/2025 – 09/2025**
+* **Description:** Scraped product data using Selenium + Python, designed a Star Schema data warehouse in MySQL inside Docker, and set up automated debugging.
 
 ---
 
-## IV. Nhật Ký Kết Quả Xử Lý Đối Chiếu (Đã hoàn tất)
+## IV. Discrepancy Reconciliation Log (Completed)
 
-| Điểm chênh lệch trước đây | Cách thức xử lý | Các file đã chỉnh sửa |
+| Previous Discrepancy | Resolution Method | Modified Files |
 | :--- | :--- | :--- |
-| **Mốc thời gian tại Newgen Invest** (04/2026-06/2026 vs 03/2026-Present vs 01/2026-Present) | Xác nhận thời gian chuẩn là **03/2026 – Hiện tại**. Đã tiến hành đồng bộ các CV ghi sai mốc này. | • `DA/NguyenPhanHoangPhuc-CV-DA-VI.typ`<br>• `hpt-DA/NguyenPhanHoangPhuc-CV-DA-VI.typ`<br>• `sts_DA/NguyenPhanHoangPhuc-CV-DA-VI.typ`<br>• `operation/NguyenPhanHoangPhuc-CV-Ops-VI.typ`<br>• `sts_DA/NguyenPhanHoangPhuc-CV-DA.typ`<br>• `RiseCapital_DA/NguyenPhanHoangPhuc-CV-DA-VI.typ` |
-| **Lỗi gõ phím mốc thời gian tại ATG** (12/2026) | Sửa lại đúng thành **12/2025**. | • `DE/NguyenPhanHoangPhuc-CV-DE.typ` |
-| **Mốc thời gian dự án Customer Behavioral Analytics** | Đồng bộ thời gian hoàn thành là **03/2026**. | • `DE/intern/NguyenPhanHoangPhuc-CV-DE-intern.typ` |
-| **Ẩn/Hiện kinh nghiệm & kỹ năng khác** | Giữ nguyên các phần comment ẩn/hiện hoặc cấu trúc cũ theo ý muốn của ứng viên. | *Không thay đổi cấu trúc ẩn/hiện* |
+| **Newgen Invest timeline discrepancies** (04/2026-06/2026 vs 03/2026-Present vs 01/2026-Present) | Confirmed standard timeline is **03/2026 – Present**. Synchronized dates across all CV files. | • `DA/NguyenPhanHoangPhuc-CV-DA-VI.typ`<br>• `DA_hpt/NguyenPhanHoangPhuc-CV-DA-VI.typ` (now `DA/hpt/`) <br>• `DA_STS/NguyenPhanHoangPhuc-CV-DA-VI.typ` (now `DA/STS/`) <br>• `Ops/NguyenPhanHoangPhuc-CV-Ops-VI.typ`<br>• `DA_STS/NguyenPhanHoangPhuc-CV-DA.typ` (now `DA/STS/`) <br>• `DA_RiseCapital/NguyenPhanHoangPhuc-CV-DA-VI.typ` (now `DA/RiseCapital/`) |
+| **Typo in ATG timeline** (12/2026) | Corrected to **12/2025**. | • `DE/NguyenPhanHoangPhuc-CV-DE.typ` |
+| **Customer Behavioral Analytics project timeline discrepancy** | Synchronized completion date to **03/2026**. | • `DE/intern/NguyenPhanHoangPhuc-CV-DE-intern.typ` |
+| **Hiding/showing experience & other skills** | Preserved conditional commented blocks or original structures based on candidate requirements. | *No changes to hidden/visible structures* |
