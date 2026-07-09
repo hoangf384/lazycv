@@ -55,10 +55,10 @@ typst compile <name-of-cv-file>.typ --format=[pdf, png, html, svg]
 
 This repository is designed to be **agent-native**, meaning you can delegate the entire CV tailoring and cover letter drafting workflow to autonomous coding assistants (such as Claude Code, Gemini CLI, or Codex CLI).
 
-* **System Entrypoint:** Read [AGENTS.md](file:///home/hp/projects/lazycv/AGENTS.md) for the harness specifications and environment rules.
-* **System Architecture:** Read [ARCHITECTURE.md](file:///home/hp/projects/lazycv/ARCHITECTURE.md) to understand the interaction model, sequence diagrams, and state machine transitions.
+* **System Entrypoint:** Read [AGENTS.md](file:///home/hp/projects/lazycv/runtime/AGENTS.md) for the harness specifications and environment rules.
+* **System Architecture:** Read [ARCHITECTURE.md](file:///home/hp/projects/lazycv/runtime/ARCHITECTURE.md) to understand the interaction model, sequence diagrams, and state machine transitions.
 
 ### How it works:
-1. **Contract-Guided Generation:** The CV Writer agent optimizes summaries and skill sets according to boundaries defined in `contracts/cv.md`, preventing any modifications to core candidate history.
-2. **Procedural Workflows:** Playbooks in `playbooks/` instruct agents step-by-step on how to extract JDs, setup folders, and write drafts.
-3. **Automated Quality Gate:** All generated CVs are programmatically verified using `scripts/verify_cv.py` to ensure profile integrity before prompting for final user approval.
+1. **Contract-Guided Generation:** The CV Writer agent optimizes summaries and skill sets according to boundaries defined in `runtime/contracts/cv.md`, preventing any modifications to core candidate history.
+2. **Procedural Workflows:** Playbooks in `runtime/playbooks/` instruct agents step-by-step on how to extract JDs, setup folders, and write drafts.
+3. **Automated Quality Gate:** All generated CVs are programmatically verified using `tools/verify_cv.py` to ensure profile integrity before prompting for final user approval.
