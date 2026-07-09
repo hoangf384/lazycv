@@ -95,7 +95,7 @@ if __name__ == "__main__":
         sys.exit(1)
         
     cv_file = sys.argv[1]
-    profile_file = sys.argv[2] if len(sys.argv) > 2 else "PERSONAL_PROFILE.md"
+    profile_file = sys.argv[2] if len(sys.argv) > 2 else "knowledge/PERSONAL_PROFILE.md"
     
     success = verify_cv(cv_file, profile_file)
     sys.exit(0 if success else 1)
