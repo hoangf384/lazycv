@@ -18,21 +18,21 @@ sequenceDiagram
     participant VerifierScript as verify_cv.py (Script)
 
     User->>Supervisor: Submit JD & Target Track
-    Note over Supervisor: Load SOT from knowledge/
+    Note over Supervisor: Load SOT from domain/knowledge/
     Supervisor->>Supervisor: Create Workspace & Refine JD
     Supervisor->>CVWriter: Tailor CV (Playbook: tailor_cv)
-    Note over CVWriter: Edit Summary & Skills<br/>constrained by contracts/cv.md
+    Note over CVWriter: Edit Summary & Skills<br/>constrained by runtime/contracts/cv.md
     CVWriter-->>Supervisor: Tailored CV typ file generated
     Supervisor->>Reviewer: Verify Outputs (Playbook: review_cv)
     Reviewer->>VerifierScript: Execute static audit
     VerifierScript-->>Reviewer: Exit Code 0 (Success)
     Reviewer-->>Supervisor: Verification Approved
     Supervisor->>CLWriter: Draft Cover Letter (Playbook: create_cover_letter)
-    Note over CLWriter: Draft letter<br/>constrained by contracts/cover_letter.md
+    Note over CLWriter: Draft letter<br/>constrained by runtime/contracts/cover_letter.md
     CLWriter-->>Supervisor: cover_letter.md generated
     Supervisor->>User: Request Sign-off (State: Awaiting Approval)
     User-->>Supervisor: Approved
-    Note over Supervisor: Update state/PROGRESS.md & Clean Workspace
+    Note over Supervisor: Update runtime/state/PROGRESS.md & Clean Workspace
     Supervisor-->>User: Task Completed
 ```
 
@@ -45,8 +45,8 @@ The diagram below details the data dependencies between input sources, processin
 ```mermaid
 graph TD
     JD[Target JD.md] -->|Input| CVWriter[CV Writer]
-    Profile[knowledge/PERSONAL_PROFILE.md] -->|Immutable Input| CVWriter
-    Template[PERSONAL_TEMPLATE.typ] -->|Base Template| CVWriter
+    Profile[domain/knowledge/PERSONAL_PROFILE.md] -->|Immutable Input| CVWriter
+    Template[domain/templates/PERSONAL_TEMPLATE.typ] -->|Base Template| CVWriter
     CVWriter -->|Output| TailoredCV[Tailored CV.typ]
     
     TailoredCV -->|Input| CLWriter[Cover Letter Writer]

@@ -1,13 +1,13 @@
-# Playbook: Create Cover Letter (playbooks/create_cover_letter.md)
+# Playbook: Create Cover Letter (runtime/playbooks/create_cover_letter.md)
 
 This playbook outlines the step-by-step procedure for drafting a personalized cover letter or application email.
 
 ## 1. Inputs & Outputs
 * **Inputs:**
-  * Job Description: `{track}/{company_name}/{company_name}_JD.md`
-  * Tailored CV: `{track}/{company_name}/NguyenPhanHoangPhuc-CV-{Track}.typ`
+  * Job Description: `applications/{track}/{company_name}/{company_name}_JD.md`
+  * Tailored CV: `applications/{track}/{company_name}/NguyenPhanHoangPhuc-CV-{Track}.typ`
 * **Outputs:**
-  * Application Letter: `{track}/{company_name}/cover_letter.md` (or `email_application.md`)
+  * Application Letter: `applications/{track}/{company_name}/cover_letter.md` (or `email_application.md`)
 
 ## 2. Step-by-Step Procedure
 

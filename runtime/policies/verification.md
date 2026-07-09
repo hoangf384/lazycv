@@ -1,11 +1,11 @@
-# Verification & Failure Policies (rules/verification.md)
+# Verification & Failure Policies (runtime/policies/verification.md)
 
 This document defines the automated verification procedures and failure resolution policies for the CV tailoring process.
 
 ## 1. Quality Gate Verification
 Every tailored CV MUST pass the verification script to check profile invariants (no modifications to experience dates, phone, email, or core project dates):
 ```bash
-python3 scripts/verify_cv.py <path_to_custom_cv.typ>
+python3 tools/verify_cv.py <path_to_custom_cv.typ>
 ```
 * **Success Criteria:** The command must exit with code 0. If it fails (non-zero exit code), the agent must process the printed errors and fix the CV source code until validation succeeds.
 
@@ -22,7 +22,7 @@ python3 scripts/verify_cv.py <path_to_custom_cv.typ>
   3. If still unresolved, PAUSE the execution and ask the user to clarify or provide the full JD text.
 
 ### Case C: Missing Skills or Profile Mismatch
-* **Scenario:** The JD requires critical skills (e.g., Java, Kubernetes) that are not present in `knowledge/PERSONAL_PROFILE.md`.
+* **Scenario:** The JD requires critical skills (e.g., Java, Kubernetes) that are not present in [PERSONAL_PROFILE.md](file:///home/hp/projects/lazycv/domain/knowledge/PERSONAL_PROFILE.md).
 * **Action:**
   1. NEVER fabricate or add false skills to the CV.
   2. Rearrange the Technical Skills grid to focus on the candidate's existing strengths that are most related.
@@ -32,4 +32,3 @@ python3 scripts/verify_cv.py <path_to_custom_cv.typ>
 * **Awaiting Approval State:** Once both the tailored CV and cover letter have successfully passed the automated Verification Layer, the Supervisor enters the `Awaiting approval` state.
 * **User Review:** The Supervisor presents the generated output files directly to the user.
 * **Handoff:** The task cannot transition to `Completed` until the user reviews and explicitly approves the changes (either by approving the pull request/changes or confirming in the prompt).
-

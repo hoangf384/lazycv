@@ -1,14 +1,14 @@
-# CV Customization Contract (contracts/cv.md)
+# CV Customization Contract (runtime/contracts/cv.md)
 
 This contract defines the input, output, and edit boundaries for the CV Writer role.
 
 ## 1. Interface
 * **Inputs:**
-  * Refined Job Description: `{track}/{company_name}/{company_name}_JD.md`
-  * Candidate Master Profile: `knowledge/PERSONAL_PROFILE.md`
-  * Master CV Template: `PERSONAL_TEMPLATE.typ`
+  * Refined Job Description: `applications/{track}/{company_name}/{company_name}_JD.md`
+  * Candidate Master Profile: `domain/knowledge/PERSONAL_PROFILE.md`
+  * Master CV Template: `domain/templates/PERSONAL_TEMPLATE.typ`
 * **Outputs:**
-  * Tailored CV: `{track}/{company_name}/NguyenPhanHoangPhuc-CV-{Track}.typ`
+  * Tailored CV: `applications/{track}/{company_name}/NguyenPhanHoangPhuc-CV-{Track}.typ`
 
 ## 2. Mutability Boundaries
 * **Editable Fields:**

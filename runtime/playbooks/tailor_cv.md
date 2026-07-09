@@ -1,24 +1,24 @@
-# Playbook: Tailor CV (playbooks/tailor_cv.md)
+# Playbook: Tailor CV (runtime/playbooks/tailor_cv.md)
 
 This playbook outlines the step-by-step procedure for tailoring a CV for a target job application.
 
 ## 1. Inputs & Outputs
 * **Inputs:**
-  * Job Description: `{track}/{company_name}/{company_name}_JD.md`
-  * Candidate Profile: `knowledge/PERSONAL_PROFILE.md`
-  * Master CV Template: `PERSONAL_TEMPLATE.typ`
+  * Job Description: `applications/{track}/{company_name}/{company_name}_JD.md`
+  * Candidate Profile: `domain/knowledge/PERSONAL_PROFILE.md`
+  * Master CV Template: `domain/templates/PERSONAL_TEMPLATE.typ`
 * **Outputs:**
-  * Customized Typst CV: `{track}/{company_name}/NguyenPhanHoangPhuc-CV-{Track}.typ`
+  * Customized Typst CV: `applications/{track}/{company_name}/NguyenPhanHoangPhuc-CV-{Track}.typ`
 
 ## 2. Step-by-Step Procedure
 
 ### Step 1: Initialize Directory
-1. Confirm the target track folder exists (e.g., `DA/`, `DE/`, `Ops/`).
-2. Create the company subdirectory: `{track}/{company_name}/`.
+1. Confirm the target track folder exists inside `applications/` (e.g., `applications/DA/`, `applications/DE/`, `applications/Ops/`).
+2. Create the company subdirectory: `applications/{track}/{company_name}/`.
 3. Save the refined JD as `{company_name}_JD.md` inside this directory.
 
 ### Step 2: Copy Master Template
-1. Copy `PERSONAL_TEMPLATE.typ` into `{track}/{company_name}/`.
+1. Copy `domain/templates/PERSONAL_TEMPLATE.typ` into `applications/{track}/{company_name}/`.
 2. Rename the file to `NguyenPhanHoangPhuc-CV-{Track}.typ` (or matches local language version e.g. adding `-VI` suffix).
 
 ### Step 3: Analyze and Refine
@@ -30,6 +30,6 @@ This playbook outlines the step-by-step procedure for tailoring a CV for a targe
 ### Step 4: Run Verification
 1. Run the Quality Gate script:
    ```bash
-   python3 scripts/verify_cv.py <path_to_custom_cv.typ>
+   python3 tools/verify_cv.py <path_to_custom_cv.typ>
    ```
 2. If validation fails, correct the errors in the Typst file and repeat.
