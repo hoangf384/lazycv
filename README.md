@@ -33,7 +33,7 @@ If you prefer not to use Docker:
 
 ## 3. Examples
 
-![template](images/template.png)
+![template](assets/template.png)
 
 
 ## 4. Build PDF
